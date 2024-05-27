@@ -35,9 +35,18 @@
         </section>
     </div>
     <main>
-      <button id="grid">⏹️Grid</button>
-      <button id="list">📄List</button>
-      <div id="player-profiles"></div>
+      <main>
+        <div class="filter-box">
+          <div class="dropdown">
+            <button class="dropbtn">Filters</button>
+            <div class="dropdown-content">
+              <a href="#">Year</a>
+              <a href="#">Category</a>
+              <a href="#">Type</a>
+              <a href="#">Reset Filters</a>
+            </div>
+          </div>
+      </div>
     </main>
     <footer>
       <p>Women's Volleyball Website &#169; <span id="currentYear"></span> Liezl G. Lizardo | WDD330 |<img class="footer-img" src="..\images\philippines.jpg" alt="Philippines Flag"></p>
@@ -54,7 +63,6 @@
       </div>
     </footer>
     <script src="..\js\getDate.js"></script>
-    <script src="..\js\loadPlayers.js"></script>
   </div>
 </body>
 </html>
