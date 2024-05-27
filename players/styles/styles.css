@@ -138,7 +138,6 @@ nav a:hover {
 }
 
 /* styles.css */
-
 #player-profiles {
   display: flex;
   flex-wrap: wrap;
@@ -147,7 +146,7 @@ nav a:hover {
 }
 
 .player-grid {
-  width: calc(33.333% - 32px);
+  flex: 1 1 calc(25% - 32px); /* 4 columns */
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
