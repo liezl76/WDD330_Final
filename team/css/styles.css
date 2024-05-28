@@ -81,6 +81,11 @@ nav.active a:hover {
   background-color: #e76915;
 }
 
+nav a.active {
+  background-color: #e76915;
+  color: white;
+}
+
 /* Hero section styles */
 #hero {
   display: flex;
